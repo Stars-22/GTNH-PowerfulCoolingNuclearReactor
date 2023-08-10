@@ -5,7 +5,7 @@ local transposer = component.transposer  --转运组件("转运器")--
 local nuclear = component.reactor_chamber  --核电反应堆组件--
 local energy = component.gt_batterybuffer  --能量存储组件--
 --数据--
-local s = 0.08  --中途暂停时间(最小0.02)--
+local s = 0  --中途暂停时间(0或最小0.02)--
 local k = false  --是否符合开启反应堆的标准--
 local HeatValve = 0.21  --反应堆温度阈值--
 local FuelName = "四联燃料棒(钍)"  --燃料名字--
@@ -173,9 +173,8 @@ function traverse()  --检测反应堆内部物品--
         if Putting[i] == 2 then  --此处应放冷却液--
             NuclearItem = transposer.getStackInSlot(NuclearDirection,i)
             if NuclearItem == nil then  --此处为空--
-                os.sleep(0.2)
                 redstone.setOutput(SwitchDirection,0)  --关闭反应堆--
-                os.sleep(0.4)
+                os.sleep(0.2)
                 if tp(RefrigerantName,i) then
                     print("成功添加冷却液x1")
                 else
@@ -183,9 +182,8 @@ function traverse()  --检测反应堆内部物品--
                     print("缺少冷却液")
                 end
             elseif NuclearItem.label == RefrigerantName and (NuclearItem.maxDamage-NuclearItem.damage)/NuclearItem.maxDamage <= RefrigerantValve then  --此处为高温冷却液--
-                os.sleep(0.2)
                 redstone.setOutput(SwitchDirection,0)  --关闭反应堆--
-                os.sleep(0.4)
+                os.sleep(0.2)
                 for t=1,transposer.getInventorySize(RefrigerantDirectionExhausted) do  --遍历高温冷却液存储--
                     RefrigerantItem = transposer.getStackInSlot(RefrigerantDirectionExhausted,t)
                     if  RefrigerantItem == nil then --高温冷却液存储此处为空--
