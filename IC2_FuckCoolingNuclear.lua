@@ -49,11 +49,8 @@ function tp(name,location)  --函数:添加物品--
         for i=1,transposer.getInventorySize(FuelDirection) do  --遍历燃料存储--
             if transposer.getStackInSlot(FuelDirection,i) == nil then
             elseif transposer.getStackInSlot(FuelDirection,i).label == FuelName then
-                if transposer.transferItem(FuelDirection,NuclearDirection,1,i,location) then  --转运--
-                    return true  --转运成功--
-                else
-                    return false  --转运失败--
-                end
+                transposer.transferItem(FuelDirection,NuclearDirection,1,i,location)  --转运--
+                return true  --转运成功--
             end
             if i == transposer.getInventorySize(FuelDirection) then
                 return false  --备用燃料已不足--
@@ -65,11 +62,8 @@ function tp(name,location)  --函数:添加物品--
         for i=1,transposer.getInventorySize(RefrigerantDirection) do  --遍历冷却液存储--
             if transposer.getStackInSlot(RefrigerantDirection,i) == nil then
             elseif transposer.getStackInSlot(RefrigerantDirection,i).label == RefrigerantName then
-                if transposer.transferItem(RefrigerantDirection,NuclearDirection,1,i,location) then  --转运--
-                    return true  --转运成功--
-                else
-                    return false  --转运失败--
-                end
+                transposer.transferItem(RefrigerantDirection,NuclearDirection,1,i,location)  --转运--
+                return true  --转运成功--
             end
             if i == transposer.getInventorySize(RefrigerantDirection) then
                 return false  --备用冷却液已不足--
