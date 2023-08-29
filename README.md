@@ -43,7 +43,7 @@
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/3.png)
 ## Release Notes
 
-1.0.0 - GTNH强冷核电OC自动化基本完工
+- 1.0.0 - GTNH强冷核电OC自动化基本完工
 
 ## 贡献
 0. 本说明最后一次修改于2023-08-29<br>
