@@ -38,12 +38,13 @@
 3. 修改配置
 
 ## 样例
-
+![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/1.png)
+![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/2.png)
+![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/3.png)
 ## Release Notes
 
 1.0.0 - GTNH强冷核电OC自动化基本完工
 
 ## 贡献
-
 0.本说明最后一次修改于2023-08-29<br>
 1.[繁星Stars](https://github.com/Stars-22 "https://github.com/Stars-22")
