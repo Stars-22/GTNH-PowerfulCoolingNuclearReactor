@@ -29,13 +29,13 @@
 
 1. ```wget https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/raw/main/IC2_FuckCoolingNuclear.lua```<br>
 2. ```edit IC2_FuckCoolingNuclear.lua```<br>
-3. 修改配置
+3. 修改配置3~45行(使用样例摆法和方向即可只修改11、12、13行)
 
 ### 使用复制粘贴
 
 1. ```edit IC2_FuckCoolingNuclear.lua```<br>
 2. 在GitHub中复制,在编辑器中进行粘贴<br>
-3. 修改配置
+3. 修改配置3~45行(使用样例摆法和方向即可只修改11、12、13行)
 
 ## 样例
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/1.png)
