@@ -46,10 +46,12 @@
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/1.png)
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/2.png)
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/3.png)
+
 ## Release Notes
 
 #### 1.0.0
 1. GTNH强冷核电OC自动化基本完工
+
 #### 2.0.0
 1. 修复了反应堆开启时，冷却单元不足时与产物存储存满时，无法及时关闭反应堆而导致堆温上升的问题
 2. 修复了一些注释错误的问题
