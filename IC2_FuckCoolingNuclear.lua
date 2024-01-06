@@ -1,3 +1,10 @@
+--[[
+IC2强冷核电OC自动化程序
+繁星Stars出品
+作者博客：https://www.stars22.xyz
+此项目Github（使用方法请移至此处）：
+https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor
+]]--
 local component = require("component")
 local sides = require("sides")
 
