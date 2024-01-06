@@ -1,17 +1,20 @@
-# GTNH强冷核电OC自动化-1.0.0
+# GTNH强冷核电OC自动化-2.0.0
 
-本程序由繁星制作，本程序将使用OpenComputer(开放式电脑)模组实现GTNH强冷核电自动化<br>
+本程序由繁星制作，本程序将使用OpenComputer(开放式电脑)模组实现GTNH IC2强冷核电自动化<br>
 注：请保证核电以及OC设备保持区块加载，否则核电将为核弹！！！
 
 ## 索引
-
-- [材料](#材料)
-- [用法](#用法)
-	- [使用因特网卡](#使用因特网卡)
-	- [使用复制粘贴](#使用复制粘贴)
-- [样例](#样例)
-- [Release Notes](#release-notes)
-- [贡献](#贡献)
+- [GTNH强冷核电OC自动化-2.0.0](#gtnh强冷核电oc自动化-200)
+    - [索引](#索引)
+    - [材料](#材料)
+    - [用法](#用法)
+        - [使用因特网卡](#使用因特网卡)
+        - [使用复制粘贴](#使用复制粘贴)
+    - [样例](#样例)
+    - [Release Notes](#release-notes)
+        - [1.0.0](#100)
+        - [2.0.0](#200)
+    - [贡献](#贡献)
 
 ## 材料
 
@@ -30,13 +33,14 @@
 
 1. ```wget https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/raw/main/IC2_FuckCoolingNuclear.lua```<br>
 2. ```edit IC2_FuckCoolingNuclear.lua```<br>
-3. 修改配置3~45行(使用样例摆法和方向即可只修改11、12、13行)
+3. 修改配置
 
 ### 使用复制粘贴
 
 1. ```edit IC2_FuckCoolingNuclear.lua```<br>
-2. 在GitHub中复制,在编辑器中进行粘贴<br>
-3. 修改配置3~45行(使用样例摆法和方向即可只修改11、12、13行)
+2. 在GitHub中复制 IC2_FuckCoolingNuclear.lua
+3. 在编辑器中进行粘贴<br>
+4. 修改配置
 
 ## 样例
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/1.png)
@@ -44,8 +48,15 @@
 ![](https://github.com/Stars-22/GTNH-PowerfulCoolingNuclearReactor/blob/main/picture/3.png)
 ## Release Notes
 
-- 1.0.0 - GTNH强冷核电OC自动化基本完工
+#### 1.0.0
+1. GTNH强冷核电OC自动化基本完工
+#### 2.0.0
+1. 修复了反应堆开启时，冷却单元不足时与产物存储存满时，无法及时关闭反应堆而导致堆温上升的问题
+2. 修复了一些注释错误的问题
+3. 优化了一些逻辑上问题
+4. 添加了对GTNH萤石燃料棒自动化的支持
 
 ## 贡献
-0. 本说明最后一次修改于2023-08-29<br>
+0. 本说明最后一次修改于2024-01-06<br>
 1. [繁星Stars](https://github.com/Stars-22 "https://github.com/Stars-22")
+
